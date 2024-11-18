@@ -211,7 +211,7 @@ function s2() {
           tiles[index].img,
           x * vScale,
           y * vScale,
-          vScale - 1,
+          vScale ,
           vScale * 2 
         );
       } else {
@@ -219,7 +219,7 @@ function s2() {
           tiles[index].img,
           x * vScale,
           (y + 1) * vScale,
-          vScale - 1,
+          vScale ,
           vScale * 2 
         );
       }
