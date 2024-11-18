@@ -212,7 +212,7 @@ function s2() {
           x * vScale,
           y * vScale,
           vScale - 1,
-          vScale * 2 - 1
+          vScale * 2 
         );
       } else {
         image(
@@ -220,7 +220,7 @@ function s2() {
           x * vScale,
           (y + 1) * vScale,
           vScale - 1,
-          vScale * 2 - 1
+          vScale * 2 
         );
       }
       index++;
@@ -242,9 +242,9 @@ function s3() {
       let imgpt = tiles[tileIndex].img;
 
       if (x % 2 == 0) {
-        image(imgpt, x * vScale, y * vScale, vScale - 1, vScale * 2 - 1);
+        image(imgpt, x * vScale, y * vScale, vScale , vScale * 2 );
       } else {
-        image(imgpt, x * vScale, (y + 1) * vScale, vScale - 1, vScale * 2 - 1);
+        image(imgpt, x * vScale, (y + 1) * vScale, vScale , vScale * 2 );
       }
       index++;
     }
